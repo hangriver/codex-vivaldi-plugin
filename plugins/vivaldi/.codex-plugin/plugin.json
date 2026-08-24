@@ -1,0 +1,27 @@
+{
+  "name": "vivaldi",
+  "version": "0.1.0",
+  "description": "Use Vivaldi through the official ChatGPT browser extension, including Chrome-labeled Vivaldi connections.",
+  "author": {
+    "name": "Leroy"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vivaldi",
+    "shortDescription": "Control Vivaldi with Codex",
+    "longDescription": "Use existing Vivaldi tabs and signed-in sessions through the official ChatGPT browser extension while safely handling Chrome-labeled Vivaldi connections.",
+    "developerName": "Leroy",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Use Vivaldi to review my open tabs",
+      "Use my signed-in Vivaldi session for this task"
+    ],
+    "brandColor": "#EF3939",
+    "screenshots": []
+  }
+}
+
