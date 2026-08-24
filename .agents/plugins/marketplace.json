@@ -1,0 +1,21 @@
+{
+  "name": "vivaldi-community",
+  "interface": {
+    "displayName": "Vivaldi Community"
+  },
+  "plugins": [
+    {
+      "name": "vivaldi",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vivaldi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
+
